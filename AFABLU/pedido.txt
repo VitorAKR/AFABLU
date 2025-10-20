@@ -1,0 +1,9 @@
+App para cadastrar pacientes de uma associação sem fins lucrativos 
+Precisa conter:
+Nome completo 
+CPF 
+Datas de nascimento 
+Email
+Telefone 
+Endereço completo, cidade, bairro
+Cid das patologias
