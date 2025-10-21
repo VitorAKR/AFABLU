@@ -107,6 +107,14 @@ aside form .input-block label {
   display: block;
 }
 
+.input-block{
+  margin-top: 10px;
+}
+
+input::placeholder{
+  color: #acacac;
+}
+
 form .input-block input {
   width: 100%;
   height: 32px;
@@ -162,6 +170,28 @@ form button[type="submit"]:hover {
                     <div class="input-block">
                         <label for="email">E-mail</label>
                         <input id="email" name="email" required="" value="">
+                    </div>
+                    <div class="input-block">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" name="telefone" required="" value="" placeholder="(XX)XXXXX-XXXX" maxlength="14">
+                    </div>
+                    <div class="input-block">
+                        <label for="rua">Endereço</label>
+                        <input id="rua" name="rua" required="" value="">
+                    </div>
+                    <div class="input-group">
+                    <div class="input-block">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" name="cidade" required="" value="">
+                    </div>
+                    <div class="input-block">
+                        <label for="bairro">Bairro</label>
+                        <input id="bairro" name="bairro" required="" value="">
+                    </div>
+                    </div>
+                    <div class="input-block">
+                        <label for="patologias">Patologias</label>
+                        <input id="patologias" name="patologias" required="" value="">
                     </div>
                     <button type="submit">Enviar</button>
                 </form>
